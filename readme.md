@@ -32,7 +32,7 @@ A command-line tool to archive and compress logs from a specified directory. Thi
 
 3. **Run the script:**
 
-	```bash
+   ```bash
    ./log-archive.sh <log-directory> <destination-directory>
 
 `<log-directory:>` Path to the directory containing the logs to archive (e.g., /var/log).
@@ -41,8 +41,7 @@ A command-line tool to archive and compress logs from a specified directory. Thi
 
 ## Example:
 
-	```bash
-   ./log-archive.sh /var/log /home/user/log_archives
+	./log-archive.sh /var/log /home/user/log_archives
 
    - Here all the files inside the /var/log folder are compressed
    - The archive is saved in /home/user/log_archives with a timestamped name.
@@ -66,4 +65,4 @@ A command-line tool to archive and compress logs from a specified directory. Thi
 
 ## Project URL:
 
-This project is one of the many DevOps projects shared by [roadmap.sh](http://roadmap.sh "roadmap.sh"). You can visit this project from the following [URL](https://roadmap.sh/projects/server-stats "URL").
+This project is one of the many DevOps projects shared by [roadmap.sh](http://roadmap.sh "roadmap.sh"). You can visit this project from the following [URL](https://roadmap.sh/projects/log-archive-tool "URL").
